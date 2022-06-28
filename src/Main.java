@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args)
     {
-        for (int i = 0; i <= 30; i++)
+        for (int i = 0; i * 3 <= 18; i++)
         {
-            System.out.println(30-i);
+            System.out.println(i * 3);
         }
     }
 }
