@@ -9,5 +9,17 @@ public class Main {
             }
             System.out.println();
         }
+        System.out.println("\n");
+        for (int i = 1; i <= 8; i++)
+        {
+            if (i <= 2 || (4 < i && i <= 6))
+            {
+                System.out.println("*********");
+            }
+            else
+            {
+                System.out.println("***   ***");
+            }
+        }
     }
 }
